@@ -25,8 +25,14 @@ Route::group(['middleware'=>'auth'],function(){
     Route::get('/','OrdersController@index')->name('home');
 
     //用户信息
+    Route::get('users','UsersController@index')->name('users');
     Route::get('users/{user}/edit','UsersController@edit')->name('users.edit');
     Route::post('users/{user}','UsersController@update')->name('users.update');
+
+    //权限
+    Route::get('permission','PermissionsController@index')->name('permissions');
+    //角色
+    Route::get('roles','RolesController@index')->name('roles');
 
 
 

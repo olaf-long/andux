@@ -24,8 +24,8 @@
                 </div>
                 <div class="container-fluid">
                     @include('shared.message')
-                    @yield('content')
                 </div>
+                @yield('content')
             </div>
 
             @include('layouts.footer')

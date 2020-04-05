@@ -4,7 +4,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-dashboards" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="mdi mdi-speedometer mr-1"></i>Dashboards <div class="arrow-down"></div>
+                        <i class="mdi mdi-cart-plus mr-1"></i>Orders <div class="arrow-down"></div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="topnav-dashboards">
                         <a href="index.html" class="dropdown-item">Ecommerce</a>
@@ -14,7 +14,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="mdi mdi-apps mr-1"></i>Apps <div class="arrow-down"></div>
+                        <i class="mdi dripicons-heart mr-1"></i>Goods <div class="arrow-down"></div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="topnav-apps">
                         <a href="apps-calendar.html" class="dropdown-item">Calendar</a>
@@ -47,7 +47,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="mdi mdi-google-pages mr-1"></i>Pages <div class="arrow-down"></div>
+                        <i class="mdi dripicons-location mr-1"></i>FBA <div class="arrow-down"></div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="topnav-pages">
                         <div class="dropdown">
@@ -89,7 +89,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-layouts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="mdi mdi-buffer mr-1"></i>Layouts <div class="arrow-down"></div>
+                        <i class="mdi dripicons-document mr-1"></i>Purchase <div class="arrow-down"></div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="topnav-layouts">
                         <a href="layouts-horizontal.html" class="dropdown-item">Horizontal</a>
@@ -103,7 +103,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="mdi mdi-briefcase-outline mr-1"></i>Components <div class="arrow-down"></div>
+                        <i class="mdi dripicons-briefcase mr-1"></i>New Product <div class="arrow-down"></div>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="topnav-components">
                         <a href="widgets.html" class="dropdown-item">Widgets</a>
@@ -167,6 +167,84 @@
                                 <a href="maps-vector.html" class="dropdown-item">Vector Maps</a>
                             </div>
                         </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-twitter mr-1"></i>Sales <div class="arrow-down"></div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="topnav-components">
+                        <a href="widgets.html" class="dropdown-item">Widgets</a>
+                        <div class="dropdown">
+                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-ui-kit" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                UI Elements <div class="arrow-down"></div>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="topnav-ui-kit">
+                                <a href="ui-cards.html" class="dropdown-item">Cards</a>
+                                <a href="ui-buttons.html" class="dropdown-item">Buttons</a>
+                                <a href="ui-modals.html" class="dropdown-item">Modals</a>
+                                <a href="ui-tabs.html" class="dropdown-item">Tabs</a>
+                                <a href="ui-notifications.html" class="dropdown-item">Notifications</a>
+                                <a href="ui-grid.html" class="dropdown-item">Grid</a>
+                                <a href="ui-general.html" class="dropdown-item">General</a>
+                                <a href="ui-typography.html" class="dropdown-item">Typography</a>
+                                <a href="ui-icons.html" class="dropdown-item">Icons</a>
+                                <a href="ui-spinners.html" class="dropdown-item">Spinners</a>
+                                <a href="ui-dragula.html" class="dropdown-item">Dragula</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-forms" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Forms <div class="arrow-down"></div>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="topnav-forms">
+                                <a href="form-elements.html" class="dropdown-item">Basic Elements</a>
+                                <a href="form-advanced.html" class="dropdown-item">Form Advanced</a>
+                                <a href="form-validation.html" class="dropdown-item">Validation</a>
+                                <a href="form-wizard.html" class="dropdown-item">Wizard</a>
+                                <a href="form-fileuploads.html" class="dropdown-item">File Uploads</a>
+                                <a href="form-editors.html" class="dropdown-item">Editors</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-charts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Charts <div class="arrow-down"></div>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="topnav-charts">
+                                <a href="charts-chartjs.html" class="dropdown-item">Chartjs</a>
+                                <a href="charts-brite.html" class="dropdown-item">Britecharts</a>
+                                <a href="charts-apex-line.html" class="dropdown-item">Apex Charts</a>
+                                <a href="charts-sparkline.html" class="dropdown-item">Sparklines</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-tables" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Tables <div class="arrow-down"></div>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="topnav-tables">
+                                <a href="tables-basic.html" class="dropdown-item">Basic Tables</a>
+                                <a href="tables-datatable.html" class="dropdown-item">Data Tables</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-maps" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Maps <div class="arrow-down"></div>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="topnav-maps">
+                                <a href="maps-google.html" class="dropdown-item">Google Maps</a>
+                                <a href="maps-vector.html" class="dropdown-item">Vector Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="mdi mdi-account-multiple mr-1"></i>Authorize <div class="arrow-down"></div>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="topnav-components">
+                        <a href="{{ route('users') }}" class="dropdown-item">用户</a>
+                        <a href="{{ route('roles') }}" class="dropdown-item">角色</a>
+                        <a href="{{ route('permissions') }}" class="dropdown-item">权限</a>
                     </div>
                 </li>
             </ul>

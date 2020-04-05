@@ -9,6 +9,13 @@ use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {
+
+    public function index()
+    {
+        $users = User::paginate(15);
+        return view('users.index',compact('users'));
+    }
+
     public function create()
     {
         return view('users.create');
